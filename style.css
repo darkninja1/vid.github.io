@@ -1,1 +1,32 @@
+body {
+  background-color:rgb(32, 32, 32);
+  color:rgb(0, 204, 255);
+}
+input {
+  background-color:rgb(32, 32, 32);
+  color:rgb(0, 204, 255);
+  border:1px solid rgb(0, 204, 255);
+}
+#submit {
+   cursor: pointer;
+   padding:5px 10px 5px 10px;
+}
+#submit:hover {
+  background-color:rgba(0, 204, 255, 0.493);
+  color:white;
+}
+#url {
+  color:white;
+  outline:none;
+}
+#embed1 {
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+iframe {
+  height:100%;
+  width:100%;
+  position:absolute;
+}
 
