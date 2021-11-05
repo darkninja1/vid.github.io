@@ -7,6 +7,7 @@ form.addEventListener('submit', function(e) {
     if (url1.includes("watch?v=")) {
       var url = url1.replace("watch?v=","embed/");
       var embed1 = document.getElementById("embed1");
+      embed1.style.display = "block";
       embed1.innerHTML = "<iframe style='border:none;width:100%;height:100%;' src='"+url+"'></iframe>";
       form.style.display = "none";
       
